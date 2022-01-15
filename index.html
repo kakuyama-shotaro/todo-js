@@ -7,27 +7,16 @@
 
   <body>
     <div class="input-area">
-      <input placeholder="TODOを入力" />
-      <button>追加</button>
+      <input id="add-text" placeholder="TODOを入力" />
+      <button id="add-button">追加</button>
     </div>
     <div class="incomplete-area">
       <p class="title">未完了のTODO</p>
-      <ui>
-        <li>
-          <span class="todo">TODOです</span>
-          <button>完了</button>
-          <button>削除</button>
-        </li>
-      </ui>
+      <ui id="incomplete-list"></ui>
     </div>
     <div class="complete-area">
       <p class="title">完了したTODO</p>
-      <ui>
-        <li>
-          <span>TODOでした</span>
-          <button>戻す</button>
-        </li>
-      </ui>
+      <ui id="complete-list"></ui>
     </div>
 
     <script src="src/index.js"></script>
